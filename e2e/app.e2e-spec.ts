@@ -1,10 +1,10 @@
-import { OshopPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('oshop App', () => {
-  let page: OshopPage;
+describe('organic-shop App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new OshopPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
